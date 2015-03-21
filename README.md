@@ -1,2 +1,4 @@
 # metalsmith-csso
-Metalsmith plugin for CSSO, CSS Optimizer
+CSSO, CSS Optimizer plugin for Metalsmith
+
+> [CSSO (CSS Optimizer)](https://github.com/afelix/csso) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers.
