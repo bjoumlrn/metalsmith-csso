@@ -1,6 +1,6 @@
 {
     "name": "metalsmith-csso",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "csso, css optimizer plugin for metalsmith",
     "main": "lib/index.js",
     "scripts": {
