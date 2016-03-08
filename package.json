@@ -1,32 +1,32 @@
 {
-    "name": "metalsmith-csso",
-    "version": "0.0.3",
-    "description": "csso, css optimizer plugin for metalsmith",
-    "main": "lib/index.js",
-    "scripts": {
-        "test": "./node_modules/.bin/mocha --harmony"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/bjoumlrn/metalsmith-csso"
-    },
-    "keywords": [
-        "metalsmith",
-        "csso"
-    ],
-    "author": "@bjoumlrn",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/bjoumlrn/metalsmith-csso/issues"
-    },
-    "homepage": "https://github.com/bjoumlrn/metalsmith-csso",
-    "dependencies": {
-        "minimatch": "^3.0.0",
-        "csso": "^1.6.4"
-    },
-    "devDependencies": {
-        "assert-dir-equal": "^1.0.1",
-        "metalsmith": "^2.1.0",
-        "mocha": "^2.4.5"
-    }
+  "name": "metalsmith-csso",
+  "version": "0.0.4",
+  "description": "csso, css optimizer plugin for metalsmith",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bjoumlrn/metalsmith-csso"
+  },
+  "keywords": [
+    "metalsmith",
+    "csso"
+  ],
+  "author": "@bjoumlrn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjoumlrn/metalsmith-csso/issues"
+  },
+  "homepage": "https://github.com/bjoumlrn/metalsmith-csso",
+  "dependencies": {
+    "minimatch": "^3.0.0",
+    "csso": "^1.6.4"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^2.1.0",
+    "mocha": "^2.4.5"
+  }
 }
