@@ -13,9 +13,13 @@ CSSO, CSS Optimizer plugin for Metalsmith
 - Refactored tests to use temp directory for output to avoid flaky tests
 - Rudimentary support for source maps
 
+### Restructuring
+
+To block CSSO from optimizing the structure of your CSS use the option `restructure: false` (default: true).
+
 ### Source maps
 
-Added rudimentary support for the CSSO option `sourceMap` (default: false) to generate corresponding source map files for each CSS file.
+Added rudimentary support for the CSSO option `sourceMap: true` (default: false) to generate corresponding source map files for each CSS file.
 
 
 > [CSSO (CSS Optimizer)](https://github.com/afelix/csso) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers.
