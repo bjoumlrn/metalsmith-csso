@@ -8,7 +8,6 @@ CSSO, CSS Optimizer plugin for Metalsmith
 
 - Updated to CSSO version 3.5.0
 - Updated to Metalsmith version 2.3.0
-- No longer an async plugin
 - Changed testing framework to [tape](https://github.com/substack/tape)
 - Refactored tests to use temp directory for output to avoid flaky tests
 - Rudimentary support for source maps
