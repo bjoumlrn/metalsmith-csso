@@ -66,3 +66,14 @@ tap.test( 'should generate source maps when asked to', ( t ) => {
 		} );
 	t.end();
 } );
+
+tap.test( 'should fail fast when deprecated option is used', ( t ) => {
+	const dir = createTestDirectory( 'test/fixtures/basic' );
+	Metalsmith( dir )
+		.use( csso( { 'minimizeStructure': true } ) )
+		.build( ( err ) => {
+			t.equal( err instanceof Error, true, 'an error occured' );
+		} );
+	t.end();
+} );
+
